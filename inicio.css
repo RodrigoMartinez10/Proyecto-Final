@@ -1,0 +1,93 @@
+*{
+   font-family: 'Montserrat', sans-serif;
+}
+table{
+    margin: 0 auto;
+    border: solid 2px black;
+    width: 60%;
+    background-color: #dfe4ea
+    
+}
+
+caption{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+th{
+    border-bottom: solid 2px black;
+    
+}
+td{
+    padding: 10px;
+    
+    border-bottom: solid 2px black;
+}
+
+.logo{
+  text-align: center;
+  left: 50%;
+  height: 100px;
+}
+
+.logo img{
+  width: 90px;
+  padding-top: 10px;
+}
+#tdPrecio{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h1{
+    padding-bottom: 20px; 
+}
+
+html{
+  background-image: repeating-radial-gradient(#f7f1e3,#70a1ff);
+
+}
+
+#Frame{
+  width: 300px;
+  height: 525px;
+  overflow: hidden;
+  position: absolute;
+  margin: 0 auto;
+  top: 60px;
+  left:80%;
+}
+
+.Slider{
+  animation-name: animacion;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
+
+}
+
+@keyframes animacion {
+0% {bottom: 0 ;}
+19% { bottom: 0; }
+27% { bottom: 180px; }
+46% { bottom: 180px; }
+54% { bottom: 355px; }
+62% { bottom: 355px; }
+81% { bottom: 530px; }
+100% { bottom: 530px; }
+
+}
+
+#fwd{
+  width: 60px;
+  height: 60px;
+  filter: invert(17%) sepia(52%) saturate(3556%) hue-rotate(217deg) brightness(93%) contrast(90%);
+}
+
+#fwd:hover{
+  filter: invert(52%) sepia(23%) saturate(5046%) hue-rotate(130deg) brightness(92%) contrast(87%);
+}
+
+div.sticky{
+    position: sticky;
+    bottom:50%;
+}

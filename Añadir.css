@@ -1,4 +1,4 @@
-form.form_login{
+form.form_añadir{
   width: 25%;
   position: relative;
   justify-content: center;
@@ -11,7 +11,7 @@ form.form_login{
   border-radius: 10px;
   padding-top: 5px;
   color: #30336b;
-  height: 350px;
+  height: 440px;
 }
 
 .content{
@@ -86,7 +86,7 @@ button{
 }
 
 div > label{
-  padding: 10px;
+  padding: 5px;
 }
 
 h2{
@@ -105,8 +105,13 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0;
 }
 
+textarea{
+  resize: none;
+  border-radius: 10px;
+}
+
 select{
-  width: 130px;
+  width: 200px;
   margin: 0 auto;
 }
 
@@ -116,14 +121,7 @@ select{
 .back{
     position: absolute;
     left: 480px;
-    top: 450px;
+    top: 500px;
 }
 
-#fwd{
-  width: 60px;
-  height: 60px;
-  filter: invert(17%) sepia(52%) saturate(3556%) hue-rotate(217deg) brightness(93%) contrast(90%);
-  position: absolute;
-    left: 480px;
-    top: 540px;
-}
+
