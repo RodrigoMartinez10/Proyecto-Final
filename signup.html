@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registro - Cafetería Online</title>
+    <script src="js/login.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img src="img/logo.png" alt="">
+      </div>
+    <form action="UserServlet" method= "post" class="form_login">
+        <h2>Registra tus datos</h2>
+        <div class="content">
+            <label>Nombre Completo</label>
+            <input type="text" name="nombre" value="" required autocomplete="off">
+            <label>Número de Carnet</label>
+            <input type="text" name="user" maxlength="8" onkeypress="return IsNumber(event)"required autocomplete="off">
+            <label>Correo</label>
+            <input type="email" name="correo" autocomplete="off" required>
+            <label>Contraseña</label>
+            <input type="password" name="password" value="" required autocomplete="off">
+            <input type="hidden" name="formid" value="1" />
+            <button class="btn" type="submit" onclick="" value="Register">Registrarse</button>
+        </div>
+    </form>
+    </div>
+    <script src="js/login.js"></script>
+  </body>
+</html>
