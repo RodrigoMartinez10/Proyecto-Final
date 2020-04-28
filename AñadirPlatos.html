@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Agregar un Nuevo Plato</title>
+     <link rel="stylesheet" href="css/Añadir.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img src="img/logo.png" alt="">
+      </div> 
+            <a href="menu_admin.html"><img src="img/undo.png" class="back"></a>
+        <form action="ComidaServlet" method="post" class="form_añadir">
+        <h2>Añadir platos</h2>
+        <div class="content">
+            <label>Nombre del plato</label>
+            <input type="text" name="plato" required autocomplete="off">
+            <label>Precio($)</label>
+            <input type="number" name="precio" autocomplete="off" required min="0" step="0.25" onkeypress="return IsNumber(event)">
+            <label>Tipo</label>
+            <select class="" name="tipo">
+              <option value="principal">Plato principal</option>
+              <option value="complemento">Acompañamiento</option>
+              <option value="bebida">Bebida</option>
+            </select>
+            <label>Descripcion</label>
+            <textarea name="descripcion" rows="2" cols="20"></textarea>
+            <label>Imagen del plato</label>
+            <input type="text" name="imagen" required autocomplete="off">
+            <input type="hidden" name="formid" value="5" />
+            <button class="btn" type="submit" onclick="">Añadir</button>
+        </div>
+    </form>
+    </div>
+    </body>
+</html>
