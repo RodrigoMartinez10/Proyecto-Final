@@ -1,0 +1,189 @@
+.contendedor{
+  margin: 0 auto;
+  width: 1210px;
+  height: 320px;
+  padding: 10px;
+  margin-top: 60px;
+  margin-bottom: 200px;
+}
+
+.principal {
+  height: 267px;
+  width: 160px;
+  float: left;
+  margin-right: 45px;
+  top: 30px;
+  position: relative;
+}
+
+.acompañamiento{
+height: 132px;
+width: 160px;
+float: left;
+margin-right: 45px;
+margin-top: 6%;
+}
+
+.bebida{
+height: 132px;
+width: 160px;
+float: left;
+margin-right: 45px;
+margin-top: 6%;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin-top: 0.5px;
+  background-color: #ffff;
+}
+li{
+  padding: 3px;
+  border: 1px solid #227093;
+  background-color: #ffff;
+}
+
+li:hover{
+  background-color: #3867d6;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.seleccion1{
+  border: 2px solid #227093;
+  float:left;
+  width: 160px;
+  height: 100px;
+  overflow-y:scroll;
+  overflow-x: hidden;
+  margin-right: 45px;
+  margin-top: 7%;
+  background-color: #ffff;
+}
+
+.seleccion2{
+  border: 2px solid #227093;
+  float:left;
+  width: 160px;
+  height: 100px;
+  overflow-y:scroll;
+  overflow-x: hidden;
+  margin-right: 45px;
+  margin-top: 7%;
+  background-color: #ffff;
+}
+
+.seleccion3{
+  border: 2px solid #227093;
+  float:left;
+  width: 160px;
+  height: 100px;
+  overflow-y:scroll;
+  overflow-x: hidden;
+  margin-top: 7%;
+  background-color: #ffff;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom:15.5%;
+}
+html{
+  background-image: linear-gradient(#f7f1e3,#227093);
+}
+
+.titulo{
+  position: relative;
+  bottom: 5%;
+  font-weight: bold;
+}
+.main-title{
+position:absolute;
+top: 8%;
+left: 34%;
+font-size: 35px;
+}
+
+img{
+    height: 75px;
+    position: relative;
+    top: 30px;
+    left: 28%;
+}
+
+.SubmitDB{
+  position: relative;
+  top: 40%;
+  height: 1px;
+  width: 1px
+}
+
+#Submit{
+   background-image: url('../img/send.png');
+   height: 68px;
+   width: 68px;
+   outline: none;
+   background-color: Transparent;
+   background-repeat:no-repeat;
+   border: none;
+   cursor:pointer;
+   overflow: hidden;
+   filter: invert(93%) sepia(1%) saturate(1645%) hue-rotate(198deg) brightness(106%) contrast(96%);
+   position: absolute;
+   top: 170px;
+   float: right;
+}
+
+#Submit:hover{
+  filter: invert(21%) sepia(14%) saturate(4768%) hue-rotate(197deg) brightness(90%) contrast(91%);
+}
+
+.message{
+  position:absolute;
+  top: 22%;
+  left: 30%;
+  font-size: 20px;
+}
+
+.verde{
+ text-align: center;
+ position: absolute;
+ left:15%;
+  
+}
+
+.verde img{
+  width: 30px;
+  height: 30px;
+  
+}
+
+.blanco{
+  text-align: center;
+  right: 15%;
+  position: absolute;
+  
+}
+
+.blanco img{
+  width: 30px;
+  height: 30px;
+  padding-top: 9px;
+}
+
+.minititulo{
+  padding-left: 200px;
+  padding-top: 1px;
+  position: absolute;
+}
+
+.minititulo2{
+    padding-top:0px;
+    padding-right: 40px;
+    position:absolute;
+    width: 55px;
+    top:-15%;
+  
+}
+

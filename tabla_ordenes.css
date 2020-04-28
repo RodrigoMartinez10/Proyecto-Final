@@ -1,0 +1,75 @@
+*{
+   font-family: 'Montserrat', sans-serif;
+}
+table{
+    margin: 0 auto;
+    border: solid 2px black;
+    width: 60%;
+    background-origin:  padding-box;
+    background-color: #dfe4ea; 
+}
+
+caption{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+th{
+    border-bottom: solid 2px black;
+    background-color: #30336b;
+         color: white;
+   
+    
+}
+td{
+    width: 400px;
+    padding: 10px;
+    padding-left: 20px; 
+    padding-right: 20px;
+    border-bottom: dashed 1px black;
+    border-right: dashed 1px black;
+}
+
+.logo{
+  text-align: center;
+  left: 50%;
+  height: 100px;
+}
+
+.logo img{
+  width: 90px;
+  padding-top: 10px;
+}
+#tdPrecio{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h1{
+    padding-bottom: 20px; 
+}
+
+html{
+  background-image: radial-gradient(#1B1464, #1289A7);
+
+}
+
+#fwd{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  filter: invert(17%) sepia(52%) saturate(3556%) hue-rotate(217deg) brightness(93%) contrast(90%);
+  top: 0%;
+  right: 3%;
+}
+
+#fwd:hover{
+  filter: invert(52%) sepia(23%) saturate(5046%) hue-rotate(130deg) brightness(92%) contrast(87%);
+}
+
+.back{
+    filter: invert(21%) sepia(14%) saturate(4768%) hue-rotate(197deg) brightness(90%) contrast(91%); 
+}
+.back{
+    position: absolute;
+    left: 30px;
+    top: 0px;
+}
